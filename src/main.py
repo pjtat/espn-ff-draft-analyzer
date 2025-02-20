@@ -15,6 +15,14 @@ def main(season_year):
     # Clean up the draft data
     cleaned_draft_data = data_cleanup.clean_up_draft_data(draft_data, season_year) 
 
+    # Get player data for that year
+    api_client.get_kona_player_info(season_year)
+    api_client.get_player_wl_info(season_year)
+
 
 if __name__ == "__main__":
-    pass
+    # EVENTUALLY - Add a dialogue menu here that accepts info like season_year
+
+    # TEMP TESTING VALUE
+    test_year = 2023
+    main(test_year)
