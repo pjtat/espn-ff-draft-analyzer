@@ -27,6 +27,8 @@ class ESPNApiClient:
             response = requests.get(self.base_url, headers=request_headers, cookies=ESPN_COOKIES, params=params)
             # Raise an exception for bad status codes
             response.raise_for_status()
+            # Print the response to JSON
+            self.file_exporter.save_json_file(f"{params['view']}_response.json", response.json())
             # Return the JSON response if successful
             return response.json()
         except requests.exceptions.RequestException as e:
