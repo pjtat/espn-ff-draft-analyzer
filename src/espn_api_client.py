@@ -1,13 +1,18 @@
 import requests
 from datetime import datetime
 import json
-from file_exporter import FileExporter
+from file_handler import *
 
 # Headers for player requests
 X_FANTASY_FILTER = {
             "x-fantasy-filter": json.dumps({
                 "players": {
-                    "limit": 1200
+                    "limit": 1500,
+                    "sortDraftRanks": {
+                        "sortPriority": 100,
+                        "sortAsc": True,
+                        "value": "STANDARD"
+                    }
                 }
             })
         }
@@ -37,32 +42,71 @@ from config import LEAGUE_ID, ESPN_COOKIES, HEADERS
 class ESPNApiClient:
     def __init__(self):
         self.file_exporter = FileExporter()
+        # Set up logging
+        import logging
+        import os
+        
+        # Create logs directory if it doesn't exist
+        if not os.path.exists('logs'):
+            os.makedirs('logs')
+            
+        # Configure logging
+        self.logger = logging.getLogger('espn_api')
+        self.logger.setLevel(logging.DEBUG)
+        
+        # Create file handler
+        fh = logging.FileHandler('logs/espn_api.log')
+        fh.setLevel(logging.DEBUG)
+        
+        # Create formatter
+        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+        fh.setFormatter(formatter)
+        
+        # Add handler to logger
+        self.logger.addHandler(fh)
 
-    def _make_request(self, season_year, params, additional_headers=None):
+    def _make_request(self, season_year, params, additional_headers=None, use_league_endpoint=True):
+
+        # If use_league_endpoint is True, use the league endpoint, otherwise use the players endpoint
+        if use_league_endpoint:
+            base_url = f'https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/{season_year}/segments/0/leagues/{LEAGUE_ID}'
+        else:
+            base_url = f'https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/{season_year}/players'
+
         try:
-            # Construct the URL with the provided season year
-            url = f'https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/{season_year}/segments/0/leagues/{LEAGUE_ID}'
+            # Log the request URL
+            param_str = '&'.join([f"{k}={v}" for k,v in params.items()])
+            full_url = f"{base_url}?{param_str}"
+            self.logger.info(f"Making request to {full_url}")
             
             # Combine default headers with any passed headers
             request_headers = HEADERS.copy()
             if additional_headers:
                 request_headers.update(additional_headers)
+                self.logger.debug(f"Using additional headers: {additional_headers}")
 
             # Send GET request to ESPN API with provided parameters
-            response = requests.get(url, headers=request_headers, cookies=ESPN_COOKIES, params=params)
+            response = requests.get(base_url, headers=request_headers, cookies=ESPN_COOKIES, params=params)
+            
             # Raise an exception for bad status codes
             response.raise_for_status()
-            # Print the response to JSON
-            self.file_exporter.save_json_file(f"{params['view']}_response.json", response.json())
+            
+            self.logger.info(f"Successfully received response for {params['view']}")
+
+            # Save the response to JSON
+            self.file_exporter.save_json_file(f"{params['view']}_{season_year}_response.json", response.json())
+            
             # Return the JSON response if successful
             return response.json()
+            
         except requests.exceptions.RequestException as e:
-            # Report error making request
-            print(f"Error making request: {e}")
+            # Log error making request
+            self.logger.error(f"Error making request: {e}")
             return None
+            
         except ValueError as e:
-            # Report JSON parsing error
-            print(f"Error parsing JSON response: {e}")
+            # Log JSON parsing error
+            self.logger.error(f"Error parsing JSON response: {e}")
             return None
     
     def get_team_data(self, season_year):
@@ -81,11 +125,10 @@ class ESPNApiClient:
         # Fetch draft details for the league
         return self._make_request(season_year, {"view": "mDraftDetail", "seasonId": season_year})
     
-    def get_kona_player_info(self, season_year):
+    def get_kona_player_info(self, season_year, scoring_period_id):
+        return self._make_request(season_year, {"scoringPeriodId": scoring_period_id, "view": "kona_player_info"}, additional_headers=X_FANTASY_FILTER, use_league_endpoint=True)
 
-        return self._make_request(season_year, {"view": "kona_player_info"}, X_FANTASY_FILTER)
+    def get_player_wl_info(self, season_year, scoring_period_id):
 
-    def get_player_wl_info(self, season_year):
-
-        return self._make_request(season_year, {"view": "players_wl"}, X_FANTASY_FILTER)
+        return self._make_request(season_year, {"scoringPeriodId": scoring_period_id, "view": "players_wl"}, additional_headers=X_FANTASY_FILTER, use_league_endpoint=True)
     

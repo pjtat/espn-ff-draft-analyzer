@@ -1,0 +1,267 @@
+{
+    "draftDetail": {
+        "completeDate": 1567565067895,
+        "drafted": true,
+        "inProgress": false
+    },
+    "gameId": 1,
+    "id": 963482,
+    "members": [
+        {
+            "displayName": "nserafino14",
+            "firstName": "Nick",
+            "id": "{049CC4E6-F81E-4FE4-9CC4-E6F81E8FE4E1}",
+            "isLeagueCreator": false,
+            "isLeagueManager": false,
+            "lastName": "Serafino"
+        },
+        {
+            "displayName": "bhoyson",
+            "firstName": "Brian",
+            "id": "{3E11F700-BE0C-4EB3-8787-605D4723B083}",
+            "isLeagueCreator": false,
+            "isLeagueManager": false,
+            "lastName": "Hoyson"
+        },
+        {
+            "displayName": "coolrunningss",
+            "firstName": "Jack",
+            "id": "{4918E72B-8495-4B5D-B3FE-7DD7DF8588F7}",
+            "isLeagueCreator": false,
+            "isLeagueManager": false,
+            "lastName": "Zaun"
+        },
+        {
+            "displayName": "Brett_1317",
+            "firstName": "Brett",
+            "id": "{5DF83CAC-7A14-4BCD-B83C-AC7A14BBCDC5}",
+            "isLeagueCreator": false,
+            "isLeagueManager": false,
+            "lastName": "Dusch"
+        },
+        {
+            "displayName": "Chris Allegretti",
+            "firstName": "Chris",
+            "id": "{7B012F7E-7BF8-42D2-812F-7E7BF8F2D26E}",
+            "isLeagueCreator": false,
+            "isLeagueManager": false,
+            "lastName": "Allegretti"
+        },
+        {
+            "displayName": "p2thej5",
+            "firstName": "Pj",
+            "id": "{B6CAEBA9-F067-42E3-BA15-D9CEB1886017}",
+            "isLeagueCreator": false,
+            "isLeagueManager": false,
+            "lastName": "Tatano"
+        },
+        {
+            "displayName": "Dobby1093",
+            "firstName": "Sean",
+            "id": "{BEAF742F-B7A6-4F3D-83FE-89F609804AA2}",
+            "isLeagueCreator": true,
+            "isLeagueManager": false,
+            "lastName": "Dobson"
+        },
+        {
+            "displayName": "bigbaby1294",
+            "firstName": "Brendan",
+            "id": "{C2E5066A-6E64-4D79-BE8B-88DA422D743E}",
+            "isLeagueCreator": false,
+            "isLeagueManager": false,
+            "lastName": "Fitzpatrick"
+        },
+        {
+            "displayName": "JQ5740",
+            "firstName": "Justin",
+            "id": "{CC9F4C14-1535-4BCA-B067-5306573C289C}",
+            "isLeagueCreator": false,
+            "isLeagueManager": false,
+            "lastName": "Monito"
+        },
+        {
+            "displayName": "boylepsu1",
+            "firstName": "Ryan",
+            "id": "{CD3CE4A6-333C-44A7-8145-6876AEBDE7AB}",
+            "isLeagueCreator": false,
+            "isLeagueManager": false,
+            "lastName": "Boyle"
+        }
+    ],
+    "scoringPeriodId": 18,
+    "seasonId": 2019,
+    "segmentId": 0,
+    "settings": {
+        "acquisitionSettings": {
+            "isUsingAcquisitionBudget": false
+        },
+        "draftSettings": {
+            "keeperCount": 0
+        },
+        "isCustomizable": true,
+        "isPublic": false,
+        "name": "Next Year's 8-Man League",
+        "rosterSettings": {
+            "isUsingUndroppableList": true
+        },
+        "scoringSettings": {
+            "scoringType": "H2H_POINTS"
+        }
+    },
+    "status": {
+        "activatedDate": 1562351712098,
+        "createdAsLeagueType": 0,
+        "currentLeagueType": 0,
+        "currentMatchupPeriod": 14,
+        "finalScoringPeriod": 16,
+        "firstScoringPeriod": 1,
+        "isActive": true,
+        "isExpired": false,
+        "isFull": true,
+        "isPlayoffMatchupEdited": false,
+        "isToBeDeleted": false,
+        "isViewable": true,
+        "isWaiverOrderEdited": false,
+        "latestScoringPeriod": 18,
+        "previousSeasons": [
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018
+        ],
+        "standingsUpdateDate": 1583312362078,
+        "teamsJoined": 10,
+        "transactionScoringPeriod": 18,
+        "waiverLastExecutionDate": 1583911836922,
+        "waiverProcessStatus": {
+            "2019-09-11T08:05:25.643+00:00": 8,
+            "2019-09-18T08:17:59.665+00:00": 7,
+            "2019-09-19T07:41:24.492+00:00": 1,
+            "2019-09-25T07:45:11.305+00:00": 9,
+            "2019-09-26T07:30:15.203+00:00": 1,
+            "2019-10-02T07:19:03.454+00:00": 5,
+            "2019-10-03T07:03:04.749+00:00": 1,
+            "2019-10-09T07:50:55.729+00:00": 8,
+            "2019-10-10T07:04:17.652+00:00": 1,
+            "2019-10-16T08:07:24.475+00:00": 7,
+            "2019-10-23T07:53:39.687+00:00": 5,
+            "2019-10-24T08:26:44.964+00:00": 1,
+            "2019-10-25T08:14:05.872+00:00": 1,
+            "2019-10-30T08:10:21.160+00:00": 11,
+            "2019-10-31T07:06:16.923+00:00": 1,
+            "2019-11-06T09:34:57.011+00:00": 11,
+            "2019-11-07T09:25:50.268+00:00": 2,
+            "2019-11-13T08:52:18.772+00:00": 8,
+            "2019-11-20T08:41:52.126+00:00": 7,
+            "2019-11-21T08:00:32.399+00:00": 1,
+            "2019-11-27T09:00:28.248+00:00": 6,
+            "2019-12-11T08:35:13.345+00:00": 5,
+            "2019-12-13T09:05:50.072+00:00": 1,
+            "2019-12-18T09:35:54.553+00:00": 2
+        }
+    },
+    "teams": [
+        {
+            "abbrev": "DOB",
+            "id": 1,
+            "logo": "https://www.blogtorwho.com/wp-content/uploads/2018/10/DWS11E3Rosa.jpg",
+            "logoType": "CUSTOM",
+            "name": "Montgomery Bus Depot",
+            "owners": [
+                "{BEAF742F-B7A6-4F3D-83FE-89F609804AA2}"
+            ]
+        },
+        {
+            "abbrev": "HAT",
+            "id": 2,
+            "logo": "https://media2.giphy.com/media/JOeINpfmyuwKEurwzM/giphy.gif?cid=790b7611965773860387eaabf258e0e24cc340ccaefdedd5&rid=giphy.gif",
+            "logoType": "CUSTOM",
+            "name": "Lockett Up Peej",
+            "owners": [
+                "{5DF83CAC-7A14-4BCD-B83C-AC7A14BBCDC5}"
+            ]
+        },
+        {
+            "abbrev": "swag",
+            "id": 3,
+            "logo": "https://media2.giphy.com/media/iF7YSTIyPdhoccP5yQ/giphy.gif",
+            "logoType": "CUSTOM",
+            "name": "Oh Nice",
+            "owners": [
+                "{049CC4E6-F81E-4FE4-9CC4-E6F81E8FE4E1}"
+            ]
+        },
+        {
+            "abbrev": "Zaun",
+            "id": 4,
+            "logo": "https://s-media-cache-ak0.pinimg.com/736x/6f/0e/87/6f0e8718f2d4c243b8bb9266fef664be.jpg",
+            "logoType": "CUSTOM_VALID",
+            "name": "Pj sucks at  Fantasy \ud83c\udfc8",
+            "owners": [
+                "{4918E72B-8495-4B5D-B3FE-7DD7DF8588F7}"
+            ]
+        },
+        {
+            "abbrev": "SLY",
+            "id": 5,
+            "logo": "https://media.giphy.com/media/3o6UB0lnVyBpGoXjLG/giphy.gif",
+            "logoType": "CUSTOM",
+            "name": "Slye Stallone's Slurring Squad",
+            "owners": [
+                "{3E11F700-BE0C-4EB3-8787-605D4723B083}"
+            ]
+        },
+        {
+            "abbrev": "BOYL",
+            "id": 6,
+            "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg",
+            "logoType": "VECTOR",
+            "name": "Send Sanudes w/ A. Kamara",
+            "owners": [
+                "{CD3CE4A6-333C-44A7-8145-6876AEBDE7AB}"
+            ]
+        },
+        {
+            "abbrev": "STKY",
+            "id": 7,
+            "logo": "https://i.imgur.com/EP1LSZP.gif",
+            "logoType": "CUSTOM",
+            "name": "Jack Loves His  Mother-In-Law",
+            "owners": [
+                "{B6CAEBA9-F067-42E3-BA15-D9CEB1886017}"
+            ]
+        },
+        {
+            "abbrev": "RTJR",
+            "id": 9,
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Pennsylvania_Paper_%26_Supply_Company_tower.jpg/1200px-Pennsylvania_Paper_%26_Supply_Company_tower.jpg",
+            "logoType": "CUSTOM_VALID",
+            "name": "Old McDonald  Hyde a Farm ",
+            "owners": [
+                "{CC9F4C14-1535-4BCA-B067-5306573C289C}"
+            ]
+        },
+        {
+            "abbrev": "Toph",
+            "id": 11,
+            "logo": "https://wingspanandupside.files.wordpress.com/2012/02/rodgers.jpg",
+            "logoType": "CUSTOM_VALID",
+            "name": "Le\u2019Veon My Wayward Son",
+            "owners": [
+                "{7B012F7E-7BF8-42D2-812F-7E7BF8F2D26E}"
+            ]
+        },
+        {
+            "abbrev": "FITZ",
+            "id": 13,
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/BoneHeads-ToddDetwiler/BoneHeads-08a.svg",
+            "logoType": "VECTOR",
+            "name": "MATT Gaaaayyyyyyyyyy",
+            "owners": [
+                "{C2E5066A-6E64-4D79-BE8B-88DA422D743E}"
+            ]
+        }
+    ]
+}

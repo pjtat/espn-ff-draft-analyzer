@@ -1,0 +1,269 @@
+{
+    "draftDetail": {
+        "completeDate": 1693448440971,
+        "drafted": true,
+        "inProgress": false
+    },
+    "gameId": 1,
+    "id": 963482,
+    "members": [
+        {
+            "displayName": "nserafino14",
+            "firstName": "Nick",
+            "id": "{049CC4E6-F81E-4FE4-9CC4-E6F81E8FE4E1}",
+            "isLeagueCreator": false,
+            "isLeagueManager": false,
+            "lastName": "Serafino"
+        },
+        {
+            "displayName": "bhoyson",
+            "firstName": "Brian",
+            "id": "{3E11F700-BE0C-4EB3-8787-605D4723B083}",
+            "isLeagueCreator": false,
+            "isLeagueManager": false,
+            "lastName": "Hoyson"
+        },
+        {
+            "displayName": "coolrunningss",
+            "firstName": "Jack",
+            "id": "{4918E72B-8495-4B5D-B3FE-7DD7DF8588F7}",
+            "isLeagueCreator": false,
+            "isLeagueManager": false,
+            "lastName": "Zaun"
+        },
+        {
+            "displayName": "Brett_1317",
+            "firstName": "Brett",
+            "id": "{5DF83CAC-7A14-4BCD-B83C-AC7A14BBCDC5}",
+            "isLeagueCreator": false,
+            "isLeagueManager": false,
+            "lastName": "Dusch"
+        },
+        {
+            "displayName": "Chris Allegretti",
+            "firstName": "Chris",
+            "id": "{7B012F7E-7BF8-42D2-812F-7E7BF8F2D26E}",
+            "isLeagueCreator": false,
+            "isLeagueManager": false,
+            "lastName": "Allegretti"
+        },
+        {
+            "displayName": "p2thej5",
+            "firstName": "Pj",
+            "id": "{B6CAEBA9-F067-42E3-BA15-D9CEB1886017}",
+            "isLeagueCreator": false,
+            "isLeagueManager": false,
+            "lastName": "Tatano"
+        },
+        {
+            "displayName": "Dobby1093",
+            "firstName": "Sean",
+            "id": "{BEAF742F-B7A6-4F3D-83FE-89F609804AA2}",
+            "isLeagueCreator": true,
+            "isLeagueManager": false,
+            "lastName": "Dobson"
+        },
+        {
+            "displayName": "bigbaby1294",
+            "firstName": "Brendan",
+            "id": "{C2E5066A-6E64-4D79-BE8B-88DA422D743E}",
+            "isLeagueCreator": false,
+            "isLeagueManager": false,
+            "lastName": "Fitzpatrick"
+        },
+        {
+            "displayName": "JQ5740",
+            "firstName": "Justin ",
+            "id": "{CC9F4C14-1535-4BCA-B067-5306573C289C}",
+            "isLeagueCreator": false,
+            "isLeagueManager": false,
+            "lastName": "Monito "
+        },
+        {
+            "displayName": "boylepsu1",
+            "firstName": "Ryan",
+            "id": "{CD3CE4A6-333C-44A7-8145-6876AEBDE7AB}",
+            "isLeagueCreator": false,
+            "isLeagueManager": false,
+            "lastName": "Boyle"
+        }
+    ],
+    "scoringPeriodId": 19,
+    "seasonId": 2023,
+    "segmentId": 0,
+    "settings": {
+        "acquisitionSettings": {
+            "isUsingAcquisitionBudget": false
+        },
+        "draftSettings": {
+            "keeperCount": 1
+        },
+        "isCustomizable": true,
+        "isPublic": false,
+        "name": "Next Year's 8-Man League",
+        "rosterSettings": {
+            "isUsingUndroppableList": false
+        },
+        "scoringSettings": {
+            "scoringType": "H2H_POINTS"
+        }
+    },
+    "status": {
+        "activatedDate": 1687106173992,
+        "createdAsLeagueType": 0,
+        "currentLeagueType": 0,
+        "currentMatchupPeriod": 17,
+        "finalScoringPeriod": 17,
+        "firstScoringPeriod": 1,
+        "isActive": true,
+        "isExpired": false,
+        "isFull": true,
+        "isPlayoffMatchupEdited": false,
+        "isToBeDeleted": false,
+        "isViewable": true,
+        "isWaiverOrderEdited": false,
+        "latestScoringPeriod": 19,
+        "previousSeasons": [
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022
+        ],
+        "standingsUpdateDate": 1704706980913,
+        "teamsJoined": 10,
+        "transactionScoringPeriod": 19,
+        "waiverLastExecutionDate": 1704877138289,
+        "waiverProcessStatus": {
+            "2023-09-01T07:18:38.872+00:00": 1,
+            "2023-09-13T07:06:05.441+00:00": 12,
+            "2023-09-20T07:19:08.578+00:00": 3,
+            "2023-09-27T07:42:19.456+00:00": 6,
+            "2023-09-28T08:28:38.028+00:00": 2,
+            "2023-10-04T08:20:56.594+00:00": 6,
+            "2023-10-05T08:02:51.006+00:00": 1,
+            "2023-10-07T08:21:18.294+00:00": 1,
+            "2023-10-11T08:29:05.345+00:00": 3,
+            "2023-10-18T08:31:03.980+00:00": 6,
+            "2023-10-25T07:48:43.958+00:00": 3,
+            "2023-11-01T09:18:55.857+00:00": 7,
+            "2023-11-08T09:56:53.404+00:00": 9,
+            "2023-11-15T08:52:22.061+00:00": 2,
+            "2023-11-16T10:35:00.029+00:00": 1,
+            "2023-11-22T10:32:30.060+00:00": 3,
+            "2023-11-29T08:58:28.180+00:00": 4,
+            "2023-12-06T08:48:11.219+00:00": 4,
+            "2023-12-13T08:21:43.874+00:00": 2,
+            "2023-12-20T09:50:38.234+00:00": 2,
+            "2023-12-27T08:20:22.974+00:00": 3,
+            "2024-01-03T08:56:52.576+00:00": 1
+        }
+    },
+    "teams": [
+        {
+            "abbrev": "LAMB",
+            "id": 1,
+            "logo": "https://i.postimg.cc/pVf3C9wX/lam2.jpg",
+            "logoType": "CUSTOM_VALID",
+            "name": "B*tch Im Browning",
+            "owners": [
+                "{BEAF742F-B7A6-4F3D-83FE-89F609804AA2}"
+            ]
+        },
+        {
+            "abbrev": "BEP",
+            "id": 2,
+            "logo": "https://www.emmys.com/sites/default/files/bios/tim-robinson-2022-noms-2-450x600.jpg",
+            "logoType": "CUSTOM_VALID",
+            "name": "She Diggs White Wilsons",
+            "owners": [
+                "{5DF83CAC-7A14-4BCD-B83C-AC7A14BBCDC5}"
+            ]
+        },
+        {
+            "abbrev": "swag",
+            "id": 3,
+            "logo": "https://c.tenor.com/wK3iA5P0TtAAAAAM/pointing-i-think-you-should-leave-with-tim-robinson.gif",
+            "logoType": "CUSTOM_VALID",
+            "name": "Blue Dolphin",
+            "owners": [
+                "{049CC4E6-F81E-4FE4-9CC4-E6F81E8FE4E1}"
+            ]
+        },
+        {
+            "abbrev": "Zaun",
+            "id": 4,
+            "logo": "https://sopranosautopsy.files.wordpress.com/2013/06/the-finger.jpg",
+            "logoType": "CUSTOM_VALID",
+            "name": "THE SUN GOD RISES",
+            "owners": [
+                "{4918E72B-8495-4B5D-B3FE-7DD7DF8588F7}"
+            ]
+        },
+        {
+            "abbrev": "Luck",
+            "id": 5,
+            "logo": "https://i1.sndcdn.com/artworks-z685Nyuqn0LTJAyL-CPKPNg-t500x500.jpg",
+            "logoType": "CUSTOM_VALID",
+            "name": "Sammy Paradise's DAnK Toupee",
+            "owners": [
+                "{3E11F700-BE0C-4EB3-8787-605D4723B083}"
+            ]
+        },
+        {
+            "abbrev": "BOYL",
+            "id": 6,
+            "logo": "https://media0.giphy.com/media/2wZvJ85AS1KA8bRq3w/giphy.gif",
+            "logoType": "CUSTOM",
+            "name": "Goedert? Amari Know Hurts!",
+            "owners": [
+                "{CD3CE4A6-333C-44A7-8145-6876AEBDE7AB}"
+            ]
+        },
+        {
+            "abbrev": "PJT",
+            "id": 7,
+            "logo": "https://i.imgur.com/OoKaa6w.png",
+            "logoType": "CUSTOM",
+            "name": "Chasing Pickens In The Fields",
+            "owners": [
+                "{B6CAEBA9-F067-42E3-BA15-D9CEB1886017}"
+            ]
+        },
+        {
+            "abbrev": "GLOW",
+            "id": 9,
+            "logo": "https://i.imgur.com/6pvc9ML.jpg",
+            "logoType": "CUSTOM_VALID",
+            "name": "Its McaFREE Real Estate",
+            "owners": [
+                "{CC9F4C14-1535-4BCA-B067-5306573C289C}"
+            ]
+        },
+        {
+            "abbrev": "Toph",
+            "id": 11,
+            "logo": "https://media.tenor.com/jLdEXSKPK6IAAAAM/sports-sportsmanias.gif",
+            "logoType": "CUSTOM_VALID",
+            "name": "Kuppin' Lamar's Johnson",
+            "owners": [
+                "{7B012F7E-7BF8-42D2-812F-7E7BF8F2D26E}"
+            ]
+        },
+        {
+            "abbrev": "1ST",
+            "id": 13,
+            "logo": "https://thesource.com/wp-content/uploads/2017/02/Get_Rich_Or_Die_Tryin.jpg",
+            "logoType": "CUSTOM_VALID",
+            "name": "Get Robinson or Die Tryin'",
+            "owners": [
+                "{C2E5066A-6E64-4D79-BE8B-88DA422D743E}"
+            ]
+        }
+    ]
+}

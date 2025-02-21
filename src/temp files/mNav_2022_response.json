@@ -1,0 +1,266 @@
+{
+    "draftDetail": {
+        "completeDate": 1662600916802,
+        "drafted": true,
+        "inProgress": false
+    },
+    "gameId": 1,
+    "id": 963482,
+    "members": [
+        {
+            "displayName": "nserafino14",
+            "firstName": "Nick",
+            "id": "{049CC4E6-F81E-4FE4-9CC4-E6F81E8FE4E1}",
+            "isLeagueCreator": false,
+            "isLeagueManager": false,
+            "lastName": "Serafino"
+        },
+        {
+            "displayName": "bhoyson",
+            "firstName": "Brian",
+            "id": "{3E11F700-BE0C-4EB3-8787-605D4723B083}",
+            "isLeagueCreator": false,
+            "isLeagueManager": false,
+            "lastName": "Hoyson"
+        },
+        {
+            "displayName": "coolrunningss",
+            "firstName": "Jack",
+            "id": "{4918E72B-8495-4B5D-B3FE-7DD7DF8588F7}",
+            "isLeagueCreator": false,
+            "isLeagueManager": false,
+            "lastName": "Zaun"
+        },
+        {
+            "displayName": "Brett_1317",
+            "firstName": "Brett",
+            "id": "{5DF83CAC-7A14-4BCD-B83C-AC7A14BBCDC5}",
+            "isLeagueCreator": false,
+            "isLeagueManager": false,
+            "lastName": "Dusch"
+        },
+        {
+            "displayName": "Chris Allegretti",
+            "firstName": "Chris",
+            "id": "{7B012F7E-7BF8-42D2-812F-7E7BF8F2D26E}",
+            "isLeagueCreator": false,
+            "isLeagueManager": false,
+            "lastName": "Allegretti"
+        },
+        {
+            "displayName": "p2thej5",
+            "firstName": "Pj",
+            "id": "{B6CAEBA9-F067-42E3-BA15-D9CEB1886017}",
+            "isLeagueCreator": false,
+            "isLeagueManager": false,
+            "lastName": "Tatano"
+        },
+        {
+            "displayName": "Dobby1093",
+            "firstName": "Sean",
+            "id": "{BEAF742F-B7A6-4F3D-83FE-89F609804AA2}",
+            "isLeagueCreator": true,
+            "isLeagueManager": false,
+            "lastName": "Dobson"
+        },
+        {
+            "displayName": "bigbaby1294",
+            "firstName": "Brendan",
+            "id": "{C2E5066A-6E64-4D79-BE8B-88DA422D743E}",
+            "isLeagueCreator": false,
+            "isLeagueManager": false,
+            "lastName": "Fitzpatrick"
+        },
+        {
+            "displayName": "JQ5740",
+            "firstName": "Justin ",
+            "id": "{CC9F4C14-1535-4BCA-B067-5306573C289C}",
+            "isLeagueCreator": false,
+            "isLeagueManager": false,
+            "lastName": "Monito "
+        },
+        {
+            "displayName": "boylepsu1",
+            "firstName": "Ryan",
+            "id": "{CD3CE4A6-333C-44A7-8145-6876AEBDE7AB}",
+            "isLeagueCreator": false,
+            "isLeagueManager": false,
+            "lastName": "Boyle"
+        }
+    ],
+    "scoringPeriodId": 19,
+    "seasonId": 2022,
+    "segmentId": 0,
+    "settings": {
+        "acquisitionSettings": {
+            "isUsingAcquisitionBudget": false
+        },
+        "draftSettings": {
+            "keeperCount": 0
+        },
+        "isCustomizable": true,
+        "isPublic": false,
+        "name": "Next Year's 8-Man League",
+        "rosterSettings": {
+            "isUsingUndroppableList": false
+        },
+        "scoringSettings": {
+            "scoringType": "H2H_POINTS"
+        }
+    },
+    "status": {
+        "activatedDate": 1656896186633,
+        "createdAsLeagueType": 0,
+        "currentLeagueType": 0,
+        "currentMatchupPeriod": 17,
+        "finalScoringPeriod": 17,
+        "firstScoringPeriod": 1,
+        "isActive": true,
+        "isExpired": false,
+        "isFull": true,
+        "isPlayoffMatchupEdited": false,
+        "isToBeDeleted": false,
+        "isViewable": true,
+        "isWaiverOrderEdited": false,
+        "latestScoringPeriod": 19,
+        "previousSeasons": [
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021
+        ],
+        "standingsUpdateDate": 1673426342421,
+        "teamsJoined": 10,
+        "transactionScoringPeriod": 19,
+        "waiverLastExecutionDate": 1673426342398,
+        "waiverProcessStatus": {
+            "2022-09-09T07:08:15.592+00:00": 3,
+            "2022-09-14T08:26:25.473+00:00": 4,
+            "2022-09-21T07:50:38.632+00:00": 4,
+            "2022-09-22T08:07:07.229+00:00": 1,
+            "2022-09-28T07:10:40.762+00:00": 7,
+            "2022-10-05T08:24:56.319+00:00": 7,
+            "2022-10-12T07:20:55.393+00:00": 4,
+            "2022-10-19T08:24:22.315+00:00": 5,
+            "2022-10-26T07:52:04.641+00:00": 6,
+            "2022-10-29T07:28:54.952+00:00": 1,
+            "2022-11-02T08:14:17.338+00:00": 6,
+            "2022-11-09T09:19:13.538+00:00": 8,
+            "2022-11-16T09:05:16.081+00:00": 9,
+            "2022-11-17T09:35:58.652+00:00": 1,
+            "2022-11-23T09:23:26.675+00:00": 4,
+            "2022-11-30T09:27:08.237+00:00": 5,
+            "2022-12-07T09:51:06.502+00:00": 5,
+            "2022-12-14T09:37:27.850+00:00": 6,
+            "2022-12-21T08:39:46.378+00:00": 5,
+            "2022-12-28T08:33:43.671+00:00": 2
+        }
+    },
+    "teams": [
+        {
+            "abbrev": "GERB",
+            "id": 1,
+            "logo": "https://i.postimg.cc/MTjrgb2L/Plucky-Boy-1.jpg",
+            "logoType": "CUSTOM_VALID",
+            "name": "Pluck Enclave",
+            "owners": [
+                "{BEAF742F-B7A6-4F3D-83FE-89F609804AA2}"
+            ]
+        },
+        {
+            "abbrev": "HAT",
+            "id": 2,
+            "logo": "https://y.yarn.co/551f1ea5-e7aa-4d9f-a34e-720d71cecf15_text.gif",
+            "logoType": "CUSTOM",
+            "name": "NaTee Piercings",
+            "owners": [
+                "{5DF83CAC-7A14-4BCD-B83C-AC7A14BBCDC5}"
+            ]
+        },
+        {
+            "abbrev": "swag",
+            "id": 3,
+            "logo": "https://c.tenor.com/wK3iA5P0TtAAAAAM/pointing-i-think-you-should-leave-with-tim-robinson.gif",
+            "logoType": "CUSTOM_VALID",
+            "name": "Blue Dolphin",
+            "owners": [
+                "{049CC4E6-F81E-4FE4-9CC4-E6F81E8FE4E1}"
+            ]
+        },
+        {
+            "abbrev": "Zaun",
+            "id": 4,
+            "logo": "https://s-media-cache-ak0.pinimg.com/736x/6f/0e/87/6f0e8718f2d4c243b8bb9266fef664be.jpg",
+            "logoType": "CUSTOM_VALID",
+            "name": "THE SUN GOD AMON-RAAAAAA",
+            "owners": [
+                "{4918E72B-8495-4B5D-B3FE-7DD7DF8588F7}"
+            ]
+        },
+        {
+            "abbrev": "CORN",
+            "id": 5,
+            "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDx_ZUk1xAwkyeyUHq9ZMZtbtyzSKDtG-nNA&usqp=CAU.jpg",
+            "logoType": "CUSTOM_VALID",
+            "name": "Cookin up some Corn cobs",
+            "owners": [
+                "{3E11F700-BE0C-4EB3-8787-605D4723B083}"
+            ]
+        },
+        {
+            "abbrev": "BOYL",
+            "id": 6,
+            "logo": "https://media0.giphy.com/media/2wZvJ85AS1KA8bRq3w/giphy.gif",
+            "logoType": "CUSTOM",
+            "name": "T.C. Topps from Justin Tucker",
+            "owners": [
+                "{CD3CE4A6-333C-44A7-8145-6876AEBDE7AB}"
+            ]
+        },
+        {
+            "abbrev": "PJT",
+            "id": 7,
+            "logo": "https://i.postimg.cc/Qtsm9FYB/Screen-Shot-2022-10-09-at-12-22-17-PM.png",
+            "logoType": "CUSTOM",
+            "name": "Thielen' C Kups at LaMardi Gras",
+            "owners": [
+                "{B6CAEBA9-F067-42E3-BA15-D9CEB1886017}"
+            ]
+        },
+        {
+            "abbrev": "GLOW",
+            "id": 9,
+            "logo": "https://softsolder.files.wordpress.com/2010/03/cimg4496-reflective-eyes.jpg",
+            "logoType": "CUSTOM_VALID",
+            "name": "Overlord of Trash",
+            "owners": [
+                "{CC9F4C14-1535-4BCA-B067-5306573C289C}"
+            ]
+        },
+        {
+            "abbrev": "Toph",
+            "id": 11,
+            "logo": "https://c.tenor.com/XPHkMkf2Z2wAAAAM/josh-allen-buffalo.gif",
+            "logoType": "CUSTOM_VALID",
+            "name": "Allen's Large Johnson",
+            "owners": [
+                "{7B012F7E-7BF8-42D2-812F-7E7BF8F2D26E}"
+            ]
+        },
+        {
+            "abbrev": "1ST",
+            "id": 13,
+            "logo": "https://thesource.com/wp-content/uploads/2017/02/Get_Rich_Or_Die_Tryin.jpg",
+            "logoType": "CUSTOM_VALID",
+            "name": "Get Robinson or Die Tryin'",
+            "owners": [
+                "{C2E5066A-6E64-4D79-BE8B-88DA422D743E}"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,268 @@
+{
+    "draftDetail": {
+        "completeDate": 1630866307858,
+        "drafted": true,
+        "inProgress": false
+    },
+    "gameId": 1,
+    "id": 963482,
+    "members": [
+        {
+            "displayName": "nserafino14",
+            "firstName": "Nick",
+            "id": "{049CC4E6-F81E-4FE4-9CC4-E6F81E8FE4E1}",
+            "isLeagueCreator": false,
+            "isLeagueManager": false,
+            "lastName": "Serafino"
+        },
+        {
+            "displayName": "bhoyson",
+            "firstName": "Brian",
+            "id": "{3E11F700-BE0C-4EB3-8787-605D4723B083}",
+            "isLeagueCreator": false,
+            "isLeagueManager": false,
+            "lastName": "Hoyson"
+        },
+        {
+            "displayName": "coolrunningss",
+            "firstName": "Jack",
+            "id": "{4918E72B-8495-4B5D-B3FE-7DD7DF8588F7}",
+            "isLeagueCreator": false,
+            "isLeagueManager": false,
+            "lastName": "Zaun"
+        },
+        {
+            "displayName": "Brett_1317",
+            "firstName": "Brett",
+            "id": "{5DF83CAC-7A14-4BCD-B83C-AC7A14BBCDC5}",
+            "isLeagueCreator": false,
+            "isLeagueManager": false,
+            "lastName": "Dusch"
+        },
+        {
+            "displayName": "Chris Allegretti",
+            "firstName": "Chris",
+            "id": "{7B012F7E-7BF8-42D2-812F-7E7BF8F2D26E}",
+            "isLeagueCreator": false,
+            "isLeagueManager": false,
+            "lastName": "Allegretti"
+        },
+        {
+            "displayName": "p2thej5",
+            "firstName": "Pj",
+            "id": "{B6CAEBA9-F067-42E3-BA15-D9CEB1886017}",
+            "isLeagueCreator": false,
+            "isLeagueManager": false,
+            "lastName": "Tatano"
+        },
+        {
+            "displayName": "Dobby1093",
+            "firstName": "Sean",
+            "id": "{BEAF742F-B7A6-4F3D-83FE-89F609804AA2}",
+            "isLeagueCreator": true,
+            "isLeagueManager": false,
+            "lastName": "Dobson"
+        },
+        {
+            "displayName": "bigbaby1294",
+            "firstName": "Brendan",
+            "id": "{C2E5066A-6E64-4D79-BE8B-88DA422D743E}",
+            "isLeagueCreator": false,
+            "isLeagueManager": false,
+            "lastName": "Fitzpatrick"
+        },
+        {
+            "displayName": "JQ5740",
+            "firstName": "Justin ",
+            "id": "{CC9F4C14-1535-4BCA-B067-5306573C289C}",
+            "isLeagueCreator": false,
+            "isLeagueManager": false,
+            "lastName": "Monito "
+        },
+        {
+            "displayName": "boylepsu1",
+            "firstName": "Ryan",
+            "id": "{CD3CE4A6-333C-44A7-8145-6876AEBDE7AB}",
+            "isLeagueCreator": false,
+            "isLeagueManager": false,
+            "lastName": "Boyle"
+        }
+    ],
+    "scoringPeriodId": 19,
+    "seasonId": 2021,
+    "segmentId": 0,
+    "settings": {
+        "acquisitionSettings": {
+            "isUsingAcquisitionBudget": false
+        },
+        "draftSettings": {
+            "keeperCount": 0
+        },
+        "isCustomizable": true,
+        "isPublic": false,
+        "name": "Next Year's 8-Man League",
+        "rosterSettings": {
+            "isUsingUndroppableList": false
+        },
+        "scoringSettings": {
+            "scoringType": "H2H_POINTS"
+        }
+    },
+    "status": {
+        "activatedDate": 1627835413633,
+        "createdAsLeagueType": 0,
+        "currentLeagueType": 0,
+        "currentMatchupPeriod": 15,
+        "finalScoringPeriod": 17,
+        "firstScoringPeriod": 1,
+        "isActive": true,
+        "isExpired": false,
+        "isFull": true,
+        "isPlayoffMatchupEdited": false,
+        "isToBeDeleted": false,
+        "isViewable": true,
+        "isWaiverOrderEdited": false,
+        "latestScoringPeriod": 19,
+        "previousSeasons": [
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020
+        ],
+        "standingsUpdateDate": 1641815834660,
+        "teamsJoined": 10,
+        "transactionScoringPeriod": 19,
+        "waiverLastExecutionDate": 1642063368182,
+        "waiverProcessStatus": {
+            "2021-09-10T10:08:30.478+00:00": 1,
+            "2021-09-15T07:08:56.920+00:00": 6,
+            "2021-09-22T07:11:41.063+00:00": 5,
+            "2021-09-29T07:35:16.562+00:00": 5,
+            "2021-10-01T07:48:38.189+00:00": 1,
+            "2021-10-06T08:05:35.680+00:00": 4,
+            "2021-10-13T08:20:35.466+00:00": 6,
+            "2021-10-20T07:25:41.654+00:00": 9,
+            "2021-10-27T07:38:14.710+00:00": 7,
+            "2021-10-28T08:21:05.181+00:00": 1,
+            "2021-11-03T07:16:26.609+00:00": 6,
+            "2021-11-04T07:18:53.650+00:00": 1,
+            "2021-11-05T08:04:06.985+00:00": 1,
+            "2021-11-06T08:08:27.604+00:00": 2,
+            "2021-11-10T08:07:00.039+00:00": 5,
+            "2021-11-17T08:12:43.131+00:00": 7,
+            "2021-11-24T09:59:26.372+00:00": 6,
+            "2021-12-01T08:34:04.298+00:00": 9,
+            "2021-12-08T10:00:14.746+00:00": 5,
+            "2021-12-15T09:41:03.368+00:00": 1,
+            "2021-12-23T09:23:30.462+00:00": 5,
+            "2021-12-25T08:47:00.037+00:00": 1,
+            "2021-12-29T08:34:29.674+00:00": 2
+        }
+    },
+    "teams": [
+        {
+            "abbrev": "Seis",
+            "id": 1,
+            "logo": "https://c.tenor.com/3PhCz2dZm6IAAAAC/seinfeld-sex-is-good.gif",
+            "logoType": "CUSTOM",
+            "name": "6 is Good",
+            "owners": [
+                "{BEAF742F-B7A6-4F3D-83FE-89F609804AA2}"
+            ]
+        },
+        {
+            "abbrev": "HAT",
+            "id": 2,
+            "logo": "https://i.pinimg.com/originals/c3/a9/b6/c3a9b6d0b1781b2c94abb5b33e3fa495.jpg",
+            "logoType": "CUSTOM_VALID",
+            "name": "Scary Terry",
+            "owners": [
+                "{5DF83CAC-7A14-4BCD-B83C-AC7A14BBCDC5}"
+            ]
+        },
+        {
+            "abbrev": "swag",
+            "id": 3,
+            "logo": "https://c.tenor.com/wK3iA5P0TtAAAAAM/pointing-i-think-you-should-leave-with-tim-robinson.gif",
+            "logoType": "CUSTOM_VALID",
+            "name": "Blue Dolphin",
+            "owners": [
+                "{049CC4E6-F81E-4FE4-9CC4-E6F81E8FE4E1}"
+            ]
+        },
+        {
+            "abbrev": "Zaun",
+            "id": 4,
+            "logo": "https://s-media-cache-ak0.pinimg.com/736x/6f/0e/87/6f0e8718f2d4c243b8bb9266fef664be.jpg",
+            "logoType": "CUSTOM_VALID",
+            "name": "Chase'd 4 Miles Aipuk'd a Kittl",
+            "owners": [
+                "{4918E72B-8495-4B5D-B3FE-7DD7DF8588F7}"
+            ]
+        },
+        {
+            "abbrev": "LA",
+            "id": 5,
+            "logo": "https://ca-times.brightspotcdn.com/dims4/default/1114da2/2147483647/strip/true/crop/1528x856+0+0/resize/1486x832!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F9b%2F5f%2Fca4748ce466db55734732233fc5a%2F200420-uniform-launch-social-renderings-tw.jpg",
+            "logoType": "CUSTOM_VALID",
+            "name": "The LA Chargers (and friends)",
+            "owners": [
+                "{3E11F700-BE0C-4EB3-8787-605D4723B083}"
+            ]
+        },
+        {
+            "abbrev": "BOYL",
+            "id": 6,
+            "logo": "https://media0.giphy.com/media/2wZvJ85AS1KA8bRq3w/giphy.gif",
+            "logoType": "CUSTOM",
+            "name": "T.C. Topps from Justin Tucker",
+            "owners": [
+                "{CD3CE4A6-333C-44A7-8145-6876AEBDE7AB}"
+            ]
+        },
+        {
+            "abbrev": "PJT",
+            "id": 7,
+            "logo": "https://c.tenor.com/zr_XuJpbQ6cAAAAM/im-ruined-jinxed.gif",
+            "logoType": "CUSTOM_VALID",
+            "name": "You Can't Trust Christians",
+            "owners": [
+                "{B6CAEBA9-F067-42E3-BA15-D9CEB1886017}"
+            ]
+        },
+        {
+            "abbrev": "BAD",
+            "id": 9,
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/MatthewBerry-ChipWass/MatthewBerry-10.svg",
+            "logoType": "VECTOR",
+            "name": "I am  Not a Goedert",
+            "owners": [
+                "{CC9F4C14-1535-4BCA-B067-5306573C289C}"
+            ]
+        },
+        {
+            "abbrev": "Toph",
+            "id": 11,
+            "logo": "https://cdn-vox--cdn-com.cdn.ampproject.org/i/s/cdn.vox-cdn.com/thumbor/IUd6fNjwAuPuYJXxO9G06CH11EI=/1400x0/filters:no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/7506285/zeke1.gif",
+            "logoType": "CUSTOM",
+            "name": "Zeke's Gay Chubb",
+            "owners": [
+                "{7B012F7E-7BF8-42D2-812F-7E7BF8F2D26E}"
+            ]
+        },
+        {
+            "abbrev": "WOOD",
+            "id": 13,
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/AtTheStadium-RobbHarskamp/At_The_Stadium_08.svg",
+            "logoType": "VECTOR",
+            "name": "Brett, I have  Kyle Pitts.",
+            "owners": [
+                "{C2E5066A-6E64-4D79-BE8B-88DA422D743E}"
+            ]
+        }
+    ]
+}
